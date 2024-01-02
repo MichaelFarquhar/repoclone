@@ -1,0 +1,15 @@
+{
+  "name": "repoclone",
+  "version": "1.0.0",
+  "description": "Clones multiple repositories from a given organzation or user.",
+  "main": "index.js",
+  "bin": {
+    "repoclone": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Michael Farquhar",
+  "license": "ISC"
+}
