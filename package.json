@@ -11,5 +11,9 @@
   },
   "keywords": [],
   "author": "Michael Farquhar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "inquirer": "^9.2.12"
+  }
 }
