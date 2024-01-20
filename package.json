@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "repoclone": "./index.js"
+    "repoclone": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
