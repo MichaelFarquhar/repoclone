@@ -1,7 +1,7 @@
 {
   "name": "repoclone",
   "version": "1.0.0",
-  "description": "Clones multiple repositories from a given organzation or user.",
+  "description": "Clone multiple GitHub repositories for a specified username or organization into the current working directory.",
   "main": "index.js",
   "type": "module",
   "bin": {
@@ -10,7 +10,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": "https://github.com/MichaelFarquhar/repoclone",
+  "homepage": "https://github.com/MichaelFarquhar/repoclone#readme",
+  "keywords": [
+    "cli",
+    "github",
+    "clone",
+    "repo",
+    "repository",
+    "repositories"
+  ],
   "author": "Michael Farquhar",
   "license": "ISC",
   "dependencies": {
