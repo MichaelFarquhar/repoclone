@@ -1,5 +1,8 @@
 # Repoclone
 
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+
 ## Overview
 
 Repoclone is a barebores command-line interface (CLI) tool that clones multiple GitHub repositories for a specified username or organization into the current working directory. With a simple command, you need only enter a github username or organization and then select the repositories you want to clone.
