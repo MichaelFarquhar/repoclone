@@ -25,14 +25,15 @@ program
   .description(
     "Clone multiple GitHub repositories for a specified username or organization into the current working directory."
   )
-  .version("1.0.0")
+  .version("1.0.1")
   .action(() => {
     inquirer
       .prompt([
         {
           type: "input",
           name: "usernameInput",
-          message: "Enter a Github user or organization",
+          message: "Enter a Github user or organization:",
+          prefix: "\n ->",
         },
       ])
       .then(({ usernameInput }) => {
@@ -51,8 +52,9 @@ program
                 {
                   type: "checkbox",
                   name: "reposSelected",
-                  message: "Select repositories to clone",
+                  message: "Select repositories to clone:",
                   choices: repos,
+                  prefix: "\n ->",
                 },
               ])
               .then(({ reposSelected }) => {

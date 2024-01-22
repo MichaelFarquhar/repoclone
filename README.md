@@ -5,11 +5,11 @@
 
 ## Overview
 
-Repoclone is a barebores command-line interface (CLI) tool that clones multiple GitHub repositories for a specified username or organization into the current working directory. With a simple command, you need only enter a github username or organization and then select the repositories you want to clone.
+Repoclone is a barebones CLI tool that clones multiple GitHub repositories into the current working directory. With a simple command, you need only enter a github username or organization and then select the repositories you want to clone.
 
 ## How To Use
 
-The best option is to use `npx` to run this tool. No options are required as the tool is fully interactable through prompts.
+The best way to run this tool is to use `npx`. No options are required as the tool is fully interactable through prompts.
 
 ```bash
 npx repoclone
