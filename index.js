@@ -25,7 +25,7 @@ program
   .description(
     "Clone multiple GitHub repositories for a specified username or organization into the current working directory."
   )
-  .version("1.0.1")
+  .version("1.0.2")
   .action(() => {
     inquirer
       .prompt([
