@@ -1,3 +1,9 @@
+# 1.0.3 / 2024-04-12
+
+- Updated axios, commander and inquirer packages.
+- Updated README.md
+- Hide node modules in VS Code
+
 # 1.0.2 / 2024-01-21
 
 - Removed test files
