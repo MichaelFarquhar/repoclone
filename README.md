@@ -16,6 +16,22 @@ The best way to use this tool is through `npx`. No additional options are requir
 npx repoclone
 ```
 
+## 💻 Local Installation and Usage
+
+If you'd like to install the package locally, you can use the following commands:
+
+```bash
+git clone https://github.com/MichaelFarquhar/repoclone.git
+cd repoclone
+npm install
+```
+
+Then to run the command locally:
+
+```bash
+node index.js
+```
+
 ## 📝 Changelog
 
 Please view the [CHANGELOG](/CHANGELOG.md) file for all recent changes.
