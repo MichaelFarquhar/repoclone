@@ -1,3 +1,7 @@
+# 1.0.5 / 2024-10-03
+
+- Add dynamic command version based off package.json version
+
 # 1.0.4 / 2024-04-21
 
 - Add github action workflow to automatically publish to NPM on a new release

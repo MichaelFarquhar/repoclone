@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 
 import { program } from "commander";
+import { createRequire } from "module";
 import inquirer from "inquirer";
 import axios from "axios";
 import { execSync } from "child_process";
@@ -22,13 +23,17 @@ const handleApiError = (error) => {
   }
 };
 
+// Using version number from package.json
+const require = createRequire(import.meta.url);
+const { version } = require("./package.json");
+
 // Setup Program
 program
   .name("repoclean")
   .description(
     "Clone multiple GitHub repositories for a specified username or organization into the current working directory."
   )
-  .version("1.0.4")
+  .version(version)
   .action(() => {
     inquirer
       .prompt([
