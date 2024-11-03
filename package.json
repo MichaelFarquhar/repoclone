@@ -1,6 +1,6 @@
 {
   "name": "repoclone",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Clone multiple GitHub repositories for a specified username or organization into the current working directory.",
   "main": "index.js",
   "type": "module",
